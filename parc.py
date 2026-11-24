@@ -14,7 +14,7 @@ def nb_en_panne(parc):
     return(compteur_panne)
 
 def ram_moyenne(parc):
-    total2 = 0
+    total = 0
     for pc in parc:
         total += pc["ram"]
     moyenne = total / len(parc)
